@@ -36,7 +36,7 @@ npm install puppeteer-extra-plugin-stealth
 3. **Run the script**
 
     ```bash
-    node cloudfare-dns.js
+    node cloudflare-dns-checker.js
     ```
 
 ## Script Explanation
