@@ -1,4 +1,4 @@
-# Cloudflare DNS Info Fetcher
+# Cloudflare DNS Checker
 
 This script uses Puppeteer to launch a headless Chromium browser and navigate to the Cloudflare 1.1.1.1 help page. It fetches and logs various connection details such as DNS settings, Cloudflare Data Center, and resolver IPs.
 
