@@ -25,8 +25,8 @@ npm install puppeteer-extra-plugin-stealth
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/o-Oby/cloudflare-dns-info.git
-    cd cloudflare-dns-info
+    git clone https://github.com/o-Oby/cloudflare-dns-checker.git
+    cd cloudflare-dns-checker
     ```
 
 2. **Create the script file**
