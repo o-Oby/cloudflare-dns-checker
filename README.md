@@ -1,14 +1,10 @@
-Here is a detailed README file for your Puppeteer script:
-
----
-
-# Connection Info Fetcher
+# Cloudflare DNS Info Fetcher
 
 This script uses Puppeteer to launch a headless Chromium browser and navigate to the Cloudflare 1.1.1.1 help page. It fetches and logs various connection details such as DNS settings, Cloudflare Data Center, and resolver IPs.
 
 ## Prerequisites
 
-Ensure you have Node.js and npm installed on your system. You will also need to have Chromium installed and Puppeteer Extra and its plugins.
+Ensure you have Node.js and npm installed on your system. You will also need to have Chromium installed along with Puppeteer Extra and its plugins.
 
 ### Installation of Chromium on Debian-based systems
 
@@ -29,18 +25,18 @@ npm install puppeteer-extra-plugin-stealth
 1. **Clone the repository**
 
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/o-Oby/cloudflare-dns-info.git
+    cd cloudflare-dns-info
     ```
 
 2. **Create the script file**
 
-    Create a JavaScript file (e.g., `fetchConnectionInfo.js`) and copy the provided script into the file.
+    Create a JavaScript file (e.g., `cloudfare_dns_checker.js`) and copy the provided script into the file.
 
 3. **Run the script**
 
     ```bash
-    node fetchConnectionInfo.js
+    node cloudfare-dns.js
     ```
 
 ## Script Explanation
